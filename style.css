@@ -1,0 +1,58 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f1e8;
+    color: #1b1b18;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #d86f2d;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main section {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: rgba(255, 250, 242, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(216, 111, 45, 0.2);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #5d5a52;
+    font-size: 0.9rem;
+  }
+  
